@@ -1,13 +1,11 @@
 suspend_notify
 ==============
 
-Do you have a laptop?
+Do you have a laptop, run linux, and love pop-tarts ?!
 
-Do you run linux?
+If so, this repo is for you!
 
-Does your laptop randomly wakeup in your backpack and cook your pop-tarts?
-
-If so, this product is for you! Play a sound when your laptop suspends or wakes up. Doesn't fix the root of the problem, but alerts you when your pop-tarts are done.
+Play a sound when your laptop suspends or wakes up. Doesn't fix the root of the problem, but alerts you when your pop-tarts are done.
 
 * Place poptart atop your keyboard
 * Close your laptop
