@@ -1,0 +1,13 @@
+#!/bin/sh
+export SDL_AUDIODRIVER=alsa
+export AUDIODEV=hw:1,0
+case "$1" in
+        hibernate|suspend)
+		play /home/meyers/Dropbox/Code/suspend_notify/sounds/shutdown.wav &
+                ;;
+        thaw|resume)
+		play /home/meyers/Dropbox/Code/suspend_notify/sounds/startup.wav &
+                ;;
+        *) exit $NA
+                ;;
+esac
